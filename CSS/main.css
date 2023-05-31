@@ -1,0 +1,83 @@
+/*CSS Document main.css */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers Etiquetas nuevas de HTML5 para poder ser visibles en ordenadores viejos*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	background: whitesmoke;
+}
+
+body a {
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	margin: 0px auto;
+	height: 700px;
+	width: 1200px;
+	background-color: whitesmoke;
+}
+
+.header h1 {
+	padding: 50px 0px 0px 50px;
+	font-family: 'Josefin Sans';
+	font-size: 21px;
+}
+
+.header h2 {
+	font-family: 'Simple Thread PERSONAL USE';
+	font-size: 118px;
+	margin: 120px 180px;
+}
+
+.logo {
+	float: right;
+	margin: -400px 0px 0px 500px;
+	position: absolute;
+}
+
+footer {
+	background-color: white;
+	padding: 10px 0px;
+}
+
+.contact h1 {
+	text-align: center;
+	font-size: 26px; 
+	padding: 10px 0px 0px 0px;
+	font-family: 'Josefin Sans';
+}
+
+.contact h2 {
+	text-align: center;
+	font-size: 20px; 
+	font-family: 'Josefin Sans';
+}
+
+footer a {
+	text-decoration: none;   
+	color: #000;   
+}
+
+.redes {
+	padding: 10px 0px 20px 0px;
+	text-align: center;
+}
+
+.redes a {
+	font-size: 30px;
+	margin: 0px 10px 0px 0px;
+}
